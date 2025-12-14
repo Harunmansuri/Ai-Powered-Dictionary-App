@@ -1,0 +1,135 @@
+/* ---------------------------- */
+/* Root colors and body */
+/* ---------------------------- */
+:root {
+  --bg: #111827;
+  --bg-2: #1f2937;
+  --bg-3: #374151;
+  --purple: #9333ea;
+}
+
+body {
+  background-color: var(--bg);
+  color: white;
+}
+
+/* ---------------------------- */
+/* Headings and paragraphs */
+/* ---------------------------- */
+h2 {
+  font-size: 35px !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h2 strong {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+p {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-size: 20px !important;
+}
+
+/* ---------------------------- */
+/* Input Box */
+/* ---------------------------- */
+.inputBox {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--bg-3);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--bg-2);
+}
+
+.inputBox input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+/* ---------------------------- */
+/* ChatGPT-style result box (spacing optimized) */
+/* ---------------------------- */
+.resultContainer {
+  background-color: var(--bg-2);
+  border: 1px solid var(--bg-3);
+  border-radius: 10px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.resultContainer p {
+  font-size: 18px !important;
+  line-height: 1.6;
+  color: #e5e7eb;
+  margin: 6px 0;
+}
+
+.resultContainer strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.resultContainer h1,
+.resultContainer h2,
+.resultContainer h3 {
+  color: #ffffff;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.resultContainer ul {
+  padding-left: 20px;
+  margin: 8px 0;
+}
+
+.resultContainer li {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #d1d5db;
+}
+
+.resultContainer pre {
+  background-color: #020617;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 8px 0;
+}
+
+.resultContainer code {
+  color: #a78bfa;
+  font-size: 15px;
+}
+
+/* ---------------------------- */
+/* Footer */
+/* ---------------------------- */
+.footer {
+  background-color: var(--bg-3);
+  color: #d1d5db;
+  font-size: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  padding: 8px 0;
+}
+
+.footer strong {
+  color: #ffffff;
+}
+
+.footer p {
+  margin: 0;
+}
